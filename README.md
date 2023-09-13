@@ -40,6 +40,5 @@ This portfolio website is open-source and is available under the [MIT License](L
 If you have any questions or feedback about my portfolio website, feel free to reach out to me:
 
 - Email: [hthrace@gmail.com]
-- LinkedIn: [Your LinkedIn Profile]
 
 Thank you for visiting my portfolio website!
