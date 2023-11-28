@@ -4,60 +4,68 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Thrace</title>
+    <script
+      src="https://kit.fontawesome.com/48c949ca6b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="/Portfolio/public/dog-solid.svg" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="/Portfolio/public/stylesheets/index.css" />
   </head>
   <body class="d-flex text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <main class="px-3 mt-auto">
-        <h1>Hailey Thrace</h1>
-        <p class="lead">
-          Fullstack Dev<br />
-          Team Player <br />
-          Problem Solver <br />
-          Always Up for a Challenge
-        </p>
-        <a
-          href="/Portfolio/views/portfolio.html"
-          class="btn btn-lg btn-primary font-weight-bold mt-3"
-          >Portfolio
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="22"
-            fill="currentColor"
-            class="bi bi-folder"
-            viewBox="0 0 16 18"
-          >
-            <path
-              d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"
-            /></svg
-        ></a>
-        <a
-          href="https://github.com/Hthrace"
-          class="btn btn-lg btn-primary font-weight-bold mt-3 ps-4 pe-4"
-          >Github
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="22"
-            fill="currentColor"
-            class="bi bi-github"
-            viewBox="0 0 16 22"
-          >
-            <path
-              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-            /></svg
-        ></a>
+        <div class="card-group">
+          <div class="card-body">
+            <img
+            src="https://avatars.githubusercontent.com/u/61951663?v=4"
+            class="img-fluid rounded-circle"
+            id="profilePic"
+            alt="profile picture"
+          />
+            <h2 class="card-title">Hailey Thrace</h2>
+            <h6 class="card-title">Software Developer</h6>
+            <div id="homeIcon">
+              <i class="fa-brands fa-square-js fa-2xl homeIcon"></i>
+              <i class="fa-brands fa-node fa-2xl homeIcon"></i>
+              <i class="fa-brands fa-react fa-2xl homeIcon"></i>
+              <i class="fa-brands fa-java fa-2xl homeIcon"></i>
+              <i class="fa-solid fa-database fa-2xl homeIcon"></i>
+              <i class="fa-solid fa-server fa-2xl homeIcon"></i>
+            </div>
+            <p class="card-text">
+              Team Player<br />
+              Solutions Driven<br />
+              Analytical Visionary<br />
+            </p>
+            <div>
+              <a
+                href="/Portfolio/views/portfolio.html"
+                class="btn btn-lg btn-primary font-weight-bold mt-3"
+                >Portfolio <i class="bi bi-folder"></i
+              ></a>
+              <a
+                href="https://github.com/Hthrace"
+                class="btn btn-lg btn-primary font-weight-bold mt-3 ps-4 pe-4"
+                >Github <i class="bi bi-github"></i
+              ></a>
+            </div>
+        </div>
       </main>
-
       <footer class="mt-auto text-white-50">
-        <p>&copy; 2023</p>
+        <span
+          ><a href="https://github.com/Hthrace" class="text-decoration-none"
+            ><i class="fa-solid fa-dog fa-fade fa-2xs"></i></a
+        ></span>
       </footer>
     </div>
     <script
