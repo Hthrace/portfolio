@@ -11,7 +11,7 @@ Click above to see the site
 5. [Contact](#contact)
 
 ## Introduction
-Welcome to my portfolio website! I am a Full Stack Developer with experience in JavaScript, Node.js, React.js, React Router, Express, version control (Git/GitHub), MongoDB, Firebase, data structures, algorithms, and RESTful Routing. This portfolio showcases some of my work and achievements in web development.
+Welcome to my portfolio website! I am a software developer with experience in JavaScript, Node.js, React.js, React Router, Express, version control (Git/GitHub), MongoDB, Firebase, data structures, algorithms, and RESTful Routing. This portfolio showcases some of my work and achievements in web development.
 
 ## Features
 - **Responsive Design**: The website is designed to adapt to various screen sizes and devices, ensuring an optimal user experience on both desktop and mobile.
