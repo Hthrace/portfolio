@@ -9,7 +9,7 @@ const projects = [
       service time to spin up for the demo.
     </h6>`,
     demoLink: "https://campfirechronicles.onrender.com/",
-    repoLink: "https://github.com/Hthrace/campfireChronicles",
+    repoLink: "https://github.com/Hthrace/campfireChronicles/",
   },
   {
     title: "Lorville Clothing",
@@ -18,13 +18,13 @@ const projects = [
       capabilities of Google Firebase for seamless user account management, authentication, and real-time shopping cart functionality. This
       application enables users to effortlessly create accounts, log in/out, browse clothing selections, and add items to their cart with ease.`,
     demoLink: "https://keen-maamoul-18376d.netlify.app/",
-    repoLink: "https://github.com/Hthrace/lorvilleClothing",
+    repoLink: "https://github.com/Hthrace/lorvilleClothing/",
   },
   {
     title: "What Im Woking On",
     imageSrc: "/Portfolio/public/imgs/citizenSyndicate.jpg",
     description: `Project Citizen Syndicate addresses a crucial issue in Star Citizen— the lack of in-game tools to easily locate items. Due to the active development of Star Citizen by Cloud Imperium Games (CIG), current game files no longer contain essential information about item locations, prices, and stats. This absence creates a challenge for players who struggle to find items within the vast Star Citizen universe. This project aims to create a solution to this.`,
-    repoLink: "https://github.com/Hthrace/citizenSyndicate",
+    repoLink: "https://github.com/Hthrace/citizenSyndicate/",
   },
   {
     title: "Monsters Rolodex",
@@ -35,7 +35,7 @@ const projects = [
      filter the monsters by typing in a search box. This project
      showcases React.js skills, particularly in state management.`,
     demoLink: "https://hthrace.github.io/monstersRolodex/",
-    repoLink: "https://github.com/Hthrace/monstersRolodex",
+    repoLink: "https://github.com/Hthrace/monstersRolodex/",
   },
   {
     title: "Muscle Mania Gym",
@@ -46,7 +46,7 @@ const projects = [
      proficiency in web development and highlight my UI design
      capabilities.`,
     demoLink: "https://hthrace.github.io/muscleManiaGym/",
-    repoLink: "https://github.com/Hthrace/muscleManiaGym",
+    repoLink: "https://github.com/Hthrace/muscleManiaGym/",
   },
 ];
 function createProjectCards() {
