@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Campfire Chronicles",
-    imageSrc: "/Portfolio/public/imgs/campfireChronicles.png",
+    imageSrc: "/portfolio/public/imgs/campfireChronicles.png",
     description: `Campsite reviews an exploration fullstack app, seamlessly integrating MongoDB, JavaScript, Node.js, Express and
       more. With features like creating accounts, user authentication, location mapping, and sharing campsite experiences with images, price,
       and reviews, It's powered by a robust tech stack.  <h6 class="fw-semibold text-decoration-underline">
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Lorville Clothing",
-    imageSrc: "/Portfolio/public/imgs/lorvilleClothing.png",
+    imageSrc: "/portfolio/public/imgs/lorvilleClothing.png",
     description: `Lorville Clothing: React-based e-commerce application, implementing Redux for advanced state management and harnessing the
       capabilities of Google Firebase for seamless user account management, authentication, and real-time shopping cart functionality. This
       application enables users to effortlessly create accounts, log in/out, browse clothing selections, and add items to their cart with ease.`,
@@ -22,13 +22,13 @@ const projects = [
   },
   {
     title: "What Im Woking On",
-    imageSrc: "/Portfolio/public/imgs/citizenSyndicate.jpg",
+    imageSrc: "/portfolio/public/imgs/citizenSyndicate.jpg",
     description: `Project Citizen Syndicate addresses a crucial issue in Star Citizen— the lack of in-game tools to easily locate items. Due to the active development of Star Citizen by Cloud Imperium Games (CIG), current game files no longer contain essential information about item locations, prices, and stats. This absence creates a challenge for players who struggle to find items within the vast Star Citizen universe. This project aims to create a solution to this.`,
     repoLink: "https://github.com/Hthrace/citizenSyndicate/",
   },
   {
     title: "Monsters Rolodex",
-    imageSrc: "/Portfolio/public/imgs/monstersRolodex.png",
+    imageSrc: "/portfolio/public/imgs/monstersRolodex.png",
     description: ` Monsters Rolodex is a React.js portfolio project that
      demonstrates React.js and state management techniques. It
      retrieves data from the JSONPlaceholder API and allows you to
@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: "Muscle Mania Gym",
-    imageSrc: "/Portfolio/public/imgs/muscleManiaGym.png",
+    imageSrc: "/portfolio/public/imgs/muscleManiaGym.png",
     description: `  Muscle Mania Gym is a responsive website created as a portfolio
      app to showcase my skills in JavaScript, HTML, CSS, and
      Bootstrap version 3. This project aims to demonstrate my
